@@ -20,14 +20,18 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    opacity: 80%;
-    transition: opacity 0.3s;
+    opacity: 70%;
+    transition: opacity 0.2s;
 }
 
 
 .home-button:hover{
-    opacity: 100%;
+    opacity: 88%;
     cursor: pointer;
+}
+
+.home-button:active{
+    opacity: 100%;
 }
 
 .a-default{
