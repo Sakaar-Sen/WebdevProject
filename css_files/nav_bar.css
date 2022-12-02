@@ -2,9 +2,14 @@
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 50px;
     padding-right: 100px;
+    height: 70px;
     background-color: black;
+    border-style: none none solid none;
+    border-width: 2px;
+    border-color: rgb(240, 136, 136);
 }
 
 
@@ -13,6 +18,13 @@
     font-size: 30px;
     font-family:'Arial Narrow Bold', sans-serif;
     cursor: default;
+    margin: 0px;
+    transition: color 0.3s;
+}
+
+.cheel-gaiz:hover{
+    color: red;
+    
 }
 
 
@@ -49,5 +61,6 @@
 .home-button{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
     
 }
