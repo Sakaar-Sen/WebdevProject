@@ -8,16 +8,19 @@ body{
     padding-bottom: 100px;
     text-align: left;
     background-color: black;
+    cursor: default;
     }
 
 
 #bore{
     color: red; 
+    margin-left: 0.5em;
 }
 
 #rheho{
     position: absolute;
-    left: 2em;
+    top: 2em;
+    left: 1.8em ;
 }
 
 .w_name{
@@ -31,9 +34,11 @@ body{
 .social-container{
     padding-top: 10px;
     text-align: left;
+    padding-bottom: 300px;
 }
 
 .social-heading{
+    text-align: center;
     color: aqua;
 }
 
