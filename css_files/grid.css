@@ -6,19 +6,27 @@ img{
     width: 150px;
 }
 
+h1{
+    color:white;    
+}
+
+p{
+    color:rgb(212, 212, 212);
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content:space-between;
     row-gap: 100px;
     border: 5px;
-    border-style: solid;
+    border-style: none;
     border-color: aqua;
     margin: 100px 150px 100px 150px;
 }
 
 .grid-item{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(39, 38, 38);
     border-style: solid;
     border-width: 3px;
     border-color: red;;
