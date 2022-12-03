@@ -5,7 +5,7 @@
     align-items: center;
     padding-left: 50px;
     padding-right: 100px;
-    height: 70px;
+    height: 90px;
     /* background-color: black;
     border-style: none none solid none;
     border-width: 2px;
@@ -20,6 +20,7 @@
     cursor: default;
     margin: 0px;
     transition: color 0.3s;
+    user-select: none;
 }
 
 .cheel-gaiz:hover{
@@ -45,6 +46,7 @@
 .home-button:active{
     opacity: 100%;
 }
+
 
 .a-default{
     text-decoration: none;

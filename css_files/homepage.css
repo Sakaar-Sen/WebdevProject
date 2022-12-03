@@ -3,11 +3,13 @@ body{
     background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px);
 }   
 
-
+p{
+    color: white;
+}
 
 .heading-container{
     padding-top: 10px;
-    padding-bottom: 140px;
+    padding-bottom: 10px;
     text-align: left;
     cursor: default;
     }
@@ -16,20 +18,44 @@ body{
 #bore{
     color: red; 
     margin-left: 0.5em;
+    user-select: none;
 }
 
 #rheho{
-    position: absolute;
-    top: 2em;
-    left: 1.8em ;
+    position: relative;
+    top: -0.4em;
+    left: 1.8em;
+    user-select: none;
 }
+
+.scroll-container{
+    text-align: center;
+}
+
+.scroll{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: -170px; 
+    margin-bottom: 10px;
+}
+
+.vertical-line{
+    margin: 0 auto;
+
+    width: 3px; 
+    height: 100px; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.715), #f0f0f000);
+    border-radius: 50px;
+}
+
 
 .w_name{
     display: inline-block;
     color: white;
     font-family: Kalam, cursive;
     font-size: 12em;
-    margin-top: 70px;
+    margin-top: 0px;
+    margin-bottom: 33px;
 } 
 
 .social-container{
