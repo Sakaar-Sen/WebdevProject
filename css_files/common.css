@@ -1,7 +1,9 @@
 body{
     margin: 0px;
     background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px);
+    box-shadow: inset 0px 10000px rgba(255,255,255,.05);
 }   
+
 
 .heading-container{
     text-align: center;
