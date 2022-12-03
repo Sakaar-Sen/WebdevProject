@@ -18,7 +18,7 @@ img{
     
 }
 
-.common{
+.grid-item{
     border-style: none;
     border-radius: 50px;
     padding: 50px 20px 10px 20px;
@@ -30,7 +30,7 @@ img{
 }
 
     
-.common:hover{
+.grid-item:hover{
     scale: 105%;
     cursor: pointer;
 }
