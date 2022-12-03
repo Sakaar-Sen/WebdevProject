@@ -1,15 +1,16 @@
 body{
-    background-color: black;
-}
+    margin: 0px;
+    background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px);
+}   
 
-.social-heading-container{
+.heading-container{
     text-align: center;
 }
 
-.social-heading{
-    font-family: Times, serif;
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 80px;
-    color: red;
-    margin: 0;
-    padding: 60px;
+    color: rgb(234, 255, 117);
+    margin-top: 10px;
+    margin-bottom: 80px;
 }

@@ -5,7 +5,9 @@ body{
 
 p{
     color: white;
+    padding: 0px;
 }
+
 
 .heading-container{
     padding-top: 10px;
@@ -34,6 +36,7 @@ p{
 
 .scroll{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(209, 209, 209);
     font-size: 20px;
     margin-top: -170px; 
     margin-bottom: 10px;
@@ -41,7 +44,6 @@ p{
 
 .vertical-line{
     margin: 0 auto;
-
     width: 3px; 
     height: 100px; 
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.715), #f0f0f000);
@@ -58,16 +60,53 @@ p{
     margin-bottom: 33px;
 } 
 
-.social-container{
-    padding-top: 10px;
-    text-align: left;
-    padding-bottom: 300px;
+.home-body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 95px;
+    text-align: center;
+    padding-bottom: 200px;
+    padding-left: 10px;
     box-shadow: inset 0 1000px rgba(255,255,255,.05);
 }
 
-.social-heading{
+.body-item{
     text-align: center;
-    color: yellow;
+}
+
+.body-item-heading{
     font-size: 50px;
+    margin-bottom:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.content{
+    max-width: 250px;
+    margin-top: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+.bgchange-button{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 30px;
+    margin: 10px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bgchange-button:hover{
+    color: white;
+    background-color: black;
 }
 
