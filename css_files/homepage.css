@@ -1,13 +1,15 @@
 body{
     margin: 0px;
-  
+
 }
 
 .heading-container{
     padding-top: 10px;
     padding-bottom: 100px;
+    background-image: url(Untitled-2-01.jpg);
+    background-position: center;
+    background-size: 700px;
     text-align: left;
-    background-color: black;
     cursor: default;
     }
 
