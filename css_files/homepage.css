@@ -20,14 +20,12 @@ p{
 #bore{
     color: red; 
     margin-left: 0.5em;
-    user-select: none;
 }
 
 #rheho{
     position: relative;
     top: -0.4em;
     left: 1.8em;
-    user-select: none;
 }
 
 .scroll-container{
@@ -58,6 +56,7 @@ p{
     font-size: 12em;
     margin-top: 0px;
     margin-bottom: 33px;
+    user-select: none;
 } 
 
 .home-body{
