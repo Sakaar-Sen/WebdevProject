@@ -13,5 +13,6 @@ body{
     color: rgb(255, 14, 14);
     margin-top: 10px;
     margin-bottom: 80px;
+    user-select: none;
 }
 

@@ -32,8 +32,8 @@ p{
     border-color: red;;
     border-radius: 50px;
     padding: 20px;
+    width: 230px;
     text-align: center;
-    width: 220px;
     text-align: center;
     height: 400px;
     transition: scale 0.3s;
