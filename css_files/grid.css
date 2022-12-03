@@ -8,14 +8,13 @@ img{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    column-gap: 69px;
+    grid-template-columns: repeat(3, auto);
+    justify-content:space-between;
     row-gap: 100px;
     border: 5px;
-    border-style: none;
+    border-style: solid;
     border-color: aqua;
-    margin: 0px 150px 100px 150px;
-    
+    margin: 100px 150px 100px 150px;
 }
 
 .grid-item{
@@ -24,10 +23,9 @@ img{
     border-width: 3px;
     border-color: red;;
     border-radius: 50px;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding: 20px;
     text-align: center;
-    width: 270px;
+    width: 220px;
     text-align: center;
     height: 400px;
     transition: scale 0.3s;
