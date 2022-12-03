@@ -1,14 +1,14 @@
 body{
     margin: 0px;
+    background-image: linear-gradient(135deg, #1c1c1c 25%, #000000 25%, #000000 50%, #1c1c1c 50%, #1c1c1c 75%, #000000 75%, #000000 100%);
+    background-size: 40px 40px;
+}   
 
-}
+
 
 .heading-container{
     padding-top: 10px;
-    padding-bottom: 100px;
-    background-image: url(Untitled-2-01.jpg);
-    background-position: center;
-    background-size: 700px;
+    padding-bottom: 140px;
     text-align: left;
     cursor: default;
     }
@@ -37,10 +37,12 @@ body{
     padding-top: 10px;
     text-align: left;
     padding-bottom: 300px;
+    box-shadow: inset 0 1000px rgba(255,255,255,.05);
 }
 
 .social-heading{
     text-align: center;
-    color: aqua;
+    color: yellow;
+    font-size: 50px;
 }
 
