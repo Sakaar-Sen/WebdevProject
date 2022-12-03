@@ -5,7 +5,8 @@
     align-items: center;
     padding-left: 50px;
     padding-right: 100px;
-    height: 90px;
+    padding-top: 12px;
+    height: 60px;
     /* background-color: black;
     border-style: none none solid none;
     border-width: 2px;
@@ -14,19 +15,14 @@
 
 
 .cheel-gaiz{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family:'Arial Narrow Bold', sans-serif;
     cursor: default;
     margin: 0px;
-    transition: color 0.3s;
     user-select: none;
 }
 
-.cheel-gaiz:hover{
-    color: rgb(255, 0, 0);
-    
-}
 
 
 .home-button{

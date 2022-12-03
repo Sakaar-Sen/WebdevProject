@@ -1,20 +1,19 @@
 body{
     margin: 0px;
+    text-align: center;
     background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px);
     box-shadow: inset 0px 10000px rgba(255,255,255,.05);
 }   
 
 
-.heading-container{
-    text-align: center;
-}
 
 .heading{
-    font-family: cursive;
-    font-size: 80px;
-    color: rgb(255, 14, 14);
-    margin-top: 10px;
-    margin-bottom: 80px;
-    user-select: none;
+    font-family: monospace;
+    letter-spacing: 30px;
+    background-color: white;
+    color: black;
+    font-size: 60px;
+    font-weight: lighter;
+    mix-blend-mode: screen; 
 }
 
