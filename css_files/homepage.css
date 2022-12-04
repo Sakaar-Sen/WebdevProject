@@ -1,6 +1,7 @@
 body{
     margin: 0px;
-    background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px);
+    /* background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px); */
+    background-image: repeating-linear-gradient(135deg, #000000, #000000 25px, #191919 25px , #191919 30px);
 }   
 
 p{
