@@ -1,0 +1,13 @@
+.youtube{
+    border-color: red;
+    box-shadow: 2px 2px 10px rgb(255, 0, 0);
+    transition: scale 0.3s, box-shadow 0.3s;
+
+}
+
+    
+.youtube:hover{
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
