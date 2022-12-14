@@ -56,8 +56,8 @@
 }
 
     
-.crazygames:hover{
+.minecraft:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(103,64,255);
+    box-shadow: 0px 0px 20px rgb(35, 230, 9);
 }
