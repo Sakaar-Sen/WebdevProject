@@ -1,10 +1,8 @@
 body{
     margin: 0px;
     /* background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px); */
-    background-image: url(../imgs/bl2.jpeg);
-    background-blend-mode: color-burn;
-        background-size: cover;
-        background-position: center;
+    background-image: url(../imgs/black\ bg.jpeg);
+    
 }   
 
 p{
