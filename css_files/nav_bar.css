@@ -3,8 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     padding-left: 40px;
     padding-right: 100px;
+=======
+    padding-left: 50px;
+        padding-right: 100px;
+>>>>>>> jazzi
     padding-top: 12px;
     height: 60px;
     /* background-color: black;
@@ -24,7 +29,7 @@
     font-size: 30px;
     font-family:'Arial Narrow Bold', sans-serif;
     cursor: default;
-    margin: 0px;
+    margin-top: 30px;
     user-select: none;
 }
 

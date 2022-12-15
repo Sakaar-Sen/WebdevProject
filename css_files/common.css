@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     text-align: center;
+<<<<<<< HEAD
     /* background-image: repeating-linear-gradient(135deg, #000000, #000000 20px, #191919 20px, #191919 30px); */
     /* background-image: repeating-linear-gradient(135deg, #000000, #000000 25px, #191919 25px , #191919 30px); */
     box-shadow: inset 0px 10000px rgba(255,255,255, 0.03);
@@ -8,6 +9,11 @@ body{
     background-blend-mode: color-burn;
 
 
+=======
+    background-image: repeating-linear-gradient(135deg, #000000, #000000 20px, #191919 20px, #191919 30px); 
+    ;
+    
+>>>>>>> jazzi
 }   
 
 
