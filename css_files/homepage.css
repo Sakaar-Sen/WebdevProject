@@ -91,6 +91,13 @@ p{
 
 
 .education-container{
+    background-image: url("../imgs/edu.png");
+    background-blend-mode: color-burn;
+    background-color: rgba(59, 59, 59, 0.8);
+    background-size: cover;
+    border-left: 0px;
+    background-position: center;
+
 }
 
 .buttons{
