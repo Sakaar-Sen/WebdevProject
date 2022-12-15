@@ -1,28 +1,192 @@
-.youtube{
-    border-color: red;
-    box-shadow: 2px 2px 10px rgb(255, 0, 0);
+.languagelearning{
+background-image: linear-gradient(to right,black,pink);}
+
+.headings{
+    font-family:'Inder',
+        sans-serif;
+}
+.computerlanguageslearningsites{
+    background-image: linear-gradient(to right, black, rgb(29, 114, 10));
+}
+
+.COLLEGE{
+    background-image: linear-gradient(to right,black,rgb(234, 196, 43));
+}
+
+
+
+
+.language1{
+    border-color:greenyellow;
+    box-shadow: 2px 2px 10px greenyellow;
     transition: scale 0.3s, box-shadow 0.3s;
+    background-color: antiquewhite);
 
 }
 
     
-.youtube:hover{
+.language1:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    box-shadow: 0px 0px 20px greenyellow;
 }
 
-.lms{
-    border-color:coral;
-    box-shadow: 2px 2px 10px coral;
+
+
+.language2 {
+    border-color: blue;
+    box-shadow:2px 2px 10px blue;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-image: linear-gradient(45deg,yellow,black);
+    background-color: antiquewhite);
 
 }
 
-    
-.lms:hover{
+
+.language2:hover {
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px coral;
+    box-shadow: 0px 0px 20px blue;
+}
+
+
+.language3 {
+    border-color:yellow; box-shadow:2px 2px 10px yellow;
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: antiquewhite);
+
+}
+
+
+.language2:hover {
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px yellow;
+}
+
+
+
+.C1 {
+    border-color: white;
+    box-shadow: 2px 2px 10px white;
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: antiquewhite);
+
+}
+
+
+.C1:hover{
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px white;
+}
+
+
+
+
+.C2 {
+    border-color: rgb(24, 195, 115);
+    box-shadow: 2px 2px 10px rgb(24, 195, 115);
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: white);
+
+}
+
+
+.C2:hover {
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(24, 195, 115);
+}
+
+
+.C3 {
+    border-color: rgba(185, 46, 219, 0.741);
+    box-shadow: 2px 2px 10px rgba(185, 46, 219, 0.741);
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: white);
+
+}
+
+
+.C3:hover {
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(185, 46, 219, 0.741);
+
+}
+.onthispage{
+    background-color: pink;
+    padding: 10px;
+}
+.hey{
+    font-family: 'luminari';
+    color: black;
+}
+.top{
+    text-decoration: none;
+    color:#4C0033;
+    transition:
+    scale 0.3s;
+
+
+}
+
+.top:hover
+{
+    scale:"105%";
+    cursor: pointer;
+    color:olivedrab;
+}
+
+.P1 {
+    border-color: rgba(31, 18, 209, 0.741);
+    box-shadow: 2px 2px 10px rgba(31, 18, 209, 0.741);
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: white);
+
+}
+
+
+.P1:hover {
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(31, 18, 209, 0.741);
+
+}
+
+
+.P2 {
+    border-color: rgba(30, 219, 20, 0.741);
+    box-shadow: 2px 2px 10px rgba(30, 219, 20, 0.741);
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: white);
+
+}
+
+
+.P2:hover {
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(30, 219, 20, 0.741);
+
+}
+
+.P3 {
+    border-color: rgba(46, 202, 219, 0.741);
+    box-shadow: 2px 2px 10px rgba(46, 202, 219, 0.741);
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-color: white);
+
+}
+
+
+.P3:hover {
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(46, 202, 219, 0.741);
+
+}
+
+img{
+    height: 200;
 }
