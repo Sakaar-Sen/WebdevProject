@@ -73,7 +73,6 @@ p{
 
 .body-item{
     text-align: center;
-    height: 500px;
 }
 
 .body-item-heading{
@@ -83,11 +82,12 @@ p{
 }
 
 .content{
+    color:rgb(209, 209, 209);
     max-width: 300px;
     margin-top: 0; 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 69px;
+    margin-bottom: 30px;
     font-size: 18px;
 }
 
@@ -97,11 +97,12 @@ p{
     color: black;
     background-color: white;
     text-decoration: none;
+    width: 240px;
     border-radius: 15px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px 30px;
-    margin: 10px;
+    margin: 0px auto;
     border-color: red;
     border-width: 2px;
     border-style: solid;

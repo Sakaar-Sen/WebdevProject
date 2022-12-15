@@ -23,9 +23,13 @@ p{
     border: 5px;
     border-style: none;
     border-color: aqua;
-    margin: 100px 150px 0px 150px;
+    margin: 100px 9em 0px 9em;
     padding-bottom: 100px;
 }
+
+@media (max-width: 1140px) {
+    .grid-container { grid-template-columns: repeat(2, auto); }
+  }
 
 .grid-item{
     background-color: rgba(59, 59, 59, 0.818);
