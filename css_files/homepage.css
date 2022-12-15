@@ -4,11 +4,15 @@ body{
     background-image: repeating-linear-gradient(135deg, #000000, #000000 25px, #191919 25px , #191919 30px);
 }   
 
-p{
+p {
     color: white;
-    padding: 0px;
+    font-size: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .heading-container{
     padding-top: 50px;
@@ -61,56 +65,53 @@ p{
     user-select: none;
 } 
 
-.home-body{
+.home-body-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 115px;
+    padding: 0px;
     text-align: center;
-    padding-bottom: 200px;
-    padding-left: 10px;
     box-shadow: inset 0 1000px rgba(255,255,255,.05);
+    background-color: rgba(0, 0, 0);
+
 }
+
 
 .body-item{
-    text-align: center;
-    height: 500px;
+    padding: 350px 0em;
+    font-size: 40px;
+    transition: font-size 0.3s;
+    cursor: pointer;
+     height: 100px; /*jugaad */
 }
 
-.body-item-heading{
-    font-size: 50px;
-    margin-bottom:40px;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
-
-.content{
-    max-width: 300px;
-    margin-top: 0; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 69px;
-    font-size: 18px;
+.body-item:hover{
+    font-size: 44px;
 }
 
 
-.bgchange-button{
-    text-align: center;
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px 30px;
-    margin: 10px;
-    border-color: red;
-    border-width: 2px;
-    border-style: solid;
-    transition: background-color 0.3s, color 0.3s;
+.education-container{
+    background-image: url("../imgs/edu.png");
+    background-blend-mode: color-burn;
+    background-color: rgba(59, 59, 59, 0.8);
+    background-size: cover;
+    background-position: center;
+
 }
 
-.bgchange-button:hover{
-    color: white;
-    background-color: black;
+.entertainment-container{
+    background-image: url("../imgs/ent.png");
+    background-blend-mode: color-burn;
+    background-color: rgba(59, 59, 59, 0.9);
+    background-size: contain;
+    background-position: -20px;
+
+}
+
+.social-container{
+    background-image: url("../imgs/social.png");
+    background-blend-mode: color-burn;
+    background-color: rgba(59, 59, 59, 0.9);
+    background-size: cover;
 }
 
 .logo{
