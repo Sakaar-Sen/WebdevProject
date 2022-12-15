@@ -7,6 +7,8 @@
     border-color: red;
     box-shadow: 2px 2px 10px rgb(255, 0, 0);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(196, 0, 0), rgb(0, 0, 0));
+
 
 }
 
@@ -21,7 +23,7 @@
     border-color: rgb(0, 221, 255);
     box-shadow: 2px 2px 10px rgb(0, 221, 255);
     transition: scale 0.3s, box-shadow 0.3s;
-
+    background-image: linear-gradient(135deg, rgb(4, 17, 94), rgb(0, 0, 0));
 }
 
     
@@ -34,6 +36,7 @@
     border-color: rgb(251, 0, 255);
     box-shadow: 2px 2px 10px rgb(251, 0, 255);;
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(151, 0, 23), rgb(0, 0, 0));
 
 }
 
