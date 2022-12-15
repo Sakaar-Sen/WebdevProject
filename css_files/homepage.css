@@ -112,6 +112,10 @@ p{
     background-color: black;
 }
 
+.logo{
+    width: 150px;
+}
+
 /* .entertainment-container{
     border-style: solid;
     border-width: 3px;
