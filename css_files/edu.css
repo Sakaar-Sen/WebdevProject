@@ -10,7 +10,7 @@ background-image: linear-gradient(to right,black,pink);}
 }
 
 .COLLEGE{
-    background-image: linear-gradient(to right,black,rgb(234, 196, 43));
+    background-image: linear-gradient(to right,black,rgb(9, 190, 235));
 }
 
 
@@ -20,7 +20,11 @@ background-image: linear-gradient(to right,black,pink);}
     border-color:greenyellow;
     box-shadow: 2px 2px 10px greenyellow;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: antiquewhite);
+    background-image: url("../imgs/duo2.jpeg");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
+
 
 }
 
@@ -37,8 +41,10 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: blue;
     box-shadow:2px 2px 10px blue;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: antiquewhite);
-
+    background-image:url(../imgs/blue.jpeg);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: center;
 }
 
 
@@ -52,12 +58,15 @@ background-image: linear-gradient(to right,black,pink);}
 .language3 {
     border-color:yellow; box-shadow:2px 2px 10px yellow;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: antiquewhite);
+    background-image: url(../imgs/mem2);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: right;
 
 }
 
 
-.language2:hover {
+.language3:hover {
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px yellow;
@@ -69,7 +78,11 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: white;
     box-shadow: 2px 2px 10px white;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: antiquewhite);
+    background-image: url(../imgs/free2.png);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: right;
+        
 
 }
 
@@ -87,7 +100,10 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: rgb(24, 195, 115);
     box-shadow: 2px 2px 10px rgb(24, 195, 115);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: white);
+    background-image: url(../imgs/w2.png);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: center;
 
 }
 
@@ -103,8 +119,10 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: rgba(185, 46, 219, 0.741);
     box-shadow: 2px 2px 10px rgba(185, 46, 219, 0.741);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: white);
-
+    background-image: url(../imgs/ud2.jpeg);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: center;
 }
 
 
@@ -142,8 +160,10 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: rgba(31, 18, 209, 0.741);
     box-shadow: 2px 2px 10px rgba(31, 18, 209, 0.741);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: white);
-
+    background-image: url(../imgs/l2.jpeg);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: center;
 }
 
 
@@ -159,8 +179,10 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: rgba(30, 219, 20, 0.741);
     box-shadow: 2px 2px 10px rgba(30, 219, 20, 0.741);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: white);
-
+    background-image: url(../imgs/m2..jpeg);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: center;
 }
 
 
@@ -175,7 +197,10 @@ background-image: linear-gradient(to right,black,pink);}
     border-color: rgba(46, 202, 219, 0.741);
     box-shadow: 2px 2px 10px rgba(46, 202, 219, 0.741);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-color: white);
+    background-image: url(../imgs/pink\ bg.jpeg);
+    background-blend-mode: color-burn;
+        background-size: cover;
+        background-position: center;
 
 }
 
