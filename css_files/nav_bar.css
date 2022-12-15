@@ -3,14 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-    padding-left: 40px;
+    padding-left: 30px;
     padding-right: 100px;
-=======
-    padding-left: 50px;
-        padding-right: 100px;
->>>>>>> jazzi
-    padding-top: 12px;
+    padding-top: 15px;
     height: 60px;
     /* background-color: black;
     border-style: none none solid none;
