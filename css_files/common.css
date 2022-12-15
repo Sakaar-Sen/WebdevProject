@@ -1,8 +1,9 @@
 body{
     margin: 0px;
     text-align: center;
-    /* background-image: repeating-linear-gradient(135deg, #000000, #000000 20px, #191919 20px, #191919 30px); */
-    background-color: black;
+    /* background-image: repeating-linear-gradient(135deg, #000000, #000000 20px, #191919 20px, #191919 30px);  */
+    background-image: url(../imgs/black\ bg.jpeg);
+    
 }   
 
 

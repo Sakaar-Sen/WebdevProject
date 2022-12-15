@@ -1,12 +1,12 @@
 body{
     margin: 0px;
-    /* background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px); */
-    background-image: url(../imgs/black\ bg.jpeg);
+    background-image: repeating-linear-gradient(135deg, #000000, #000000 10px, #191919 10px, #191919 20px);
+    
     
 }   
 
 p{
-    color: rgb(28, 194, 200);
+    color: red;
     padding: 0px;
 }
 
@@ -23,7 +23,7 @@ p{
 
 
 #bore{
-    color: rgb(36, 221, 95); 
+    color: red; 
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px 30px;
     margin: 10px;
-    border-color: rgb(33, 202, 245);
+    border-color: red;
     border-width: 2px;
     border-style: solid;
     transition: background-color 0.3s, color 0.3s;

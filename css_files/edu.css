@@ -1,5 +1,5 @@
 .languagelearning{
-background-image: linear-gradient(to right,black,pink);}
+background-image: linear-gradient(to right,black,#FF6D28);}
 
 .headings{
     font-family:'Inder',
@@ -133,16 +133,18 @@ background-image: linear-gradient(to right,black,pink);}
 
 }
 .onthispage{
-    background-color: pink;
+    /* background-color: #FF6D28; */
+    /* background-image: url(../imgs/bl2.jpg); */
     padding: 10px;
+    background-blend-mode:lighten;
 }
 .hey{
     font-family: 'luminari';
-    color: black;
+    color: white;
 }
 .top{
     text-decoration: none;
-    color:#4C0033;
+    color: white;
     transition:
     scale 0.3s;
 
@@ -199,8 +201,8 @@ background-image: linear-gradient(to right,black,pink);}
     transition: scale 0.3s, box-shadow 0.3s;
     background-image: url(../imgs/pink\ bg.jpeg);
     background-blend-mode: color-burn;
-        background-size: cover;
-        background-position: center;
+    background-size: cover;
+    background-position: right;
 
 }
 
@@ -212,6 +214,15 @@ background-image: linear-gradient(to right,black,pink);}
 
 }
 
-img{
-    height: 200;
+.icon{
+    height: "200px";
+    border-radius: 23%;
+}
+hr{
+    border-style: none;
+    border-top-style:dashed;
+    border-spacing: 20px;
+    border-width: 5px;
+    border-color:rgb(199, 70, 15);
+    width:50%;
 }
