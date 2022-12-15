@@ -114,7 +114,7 @@ a{
 .entertainment-container{
     background-image: url("../imgs/ent.png");
     background-blend-mode: color-burn;
-    background-color: rgba(59, 59, 59, 0.9);
+    background-color: rgba(59, 59, 59, 0.96);
     background-size: contain;
 
 }
