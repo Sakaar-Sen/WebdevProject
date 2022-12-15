@@ -25,6 +25,7 @@ a{
 }
 
 
+
 #bore{
     color: red; 
     margin-left: 0.5em;
@@ -33,7 +34,7 @@ a{
 #rheho{
     position: relative;
     top: -0.4em;
-    left: 1.8em;
+    left: 1.3em;
 }
 
 .scroll-container{

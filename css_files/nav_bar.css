@@ -3,9 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-right: 100px;
-    padding-top: 12px;
+    padding-top: 15px;
     height: 60px;
     /* background-color: black;
     border-style: none none solid none;
@@ -24,7 +24,7 @@
     font-size: 30px;
     font-family:'Arial Narrow Bold', sans-serif;
     cursor: default;
-    margin: 0px;
+    margin-top: 30px;
     user-select: none;
 }
 
