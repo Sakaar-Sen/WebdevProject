@@ -4,10 +4,12 @@ body{
     background-image: repeating-linear-gradient(135deg, #000000, #000000 25px, #191919 25px , #191919 30px);
 }   
 
-p {
+/* p {
     color: white;
     font-size: 15px;
-}
+    width: 200px ;
+
+} */
 
 a{
     text-decoration: none;
@@ -81,13 +83,20 @@ a{
     font-size: 40px;
     transition: font-size 0.3s;
     cursor: pointer;
-     height: 100px; /*jugaad */
+    text-align: center;
+    height: 100px; /*jugaad */
 }
 
 .body-item:hover{
     font-size: 44px;
 }
 
+.content{
+    color: rgb(226, 226, 226);
+    margin: 30px auto 0px auto;
+    font-size: 15px;
+    width: 200px;
+}
 
 .education-container{
     background-image: url("../imgs/edu.png");
