@@ -84,6 +84,9 @@ a{
     transition: font-size 0.3s;
     cursor: pointer;
     text-align: center;
+    border: white;
+    border-style: none solid;
+    border-width: 2px;
     height: 100px; /*jugaad */
 }
 
@@ -103,6 +106,7 @@ a{
     background-blend-mode: color-burn;
     background-color: rgba(59, 59, 59, 0.8);
     background-size: cover;
+    border-left: 0px;
     background-position: center;
 
 }
@@ -112,7 +116,6 @@ a{
     background-blend-mode: color-burn;
     background-color: rgba(59, 59, 59, 0.9);
     background-size: contain;
-    background-position: -20px;
 
 }
 
@@ -121,6 +124,7 @@ a{
     background-blend-mode: color-burn;
     background-color: rgba(59, 59, 59, 0.9);
     background-size: cover;
+    border-right: 0px;
 }
 
 .logo{
