@@ -23,6 +23,10 @@
     border-color: rgb(35, 230, 9);
     box-shadow: 2px 2px 10px rgb(35, 230, 9);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: url("../imgs/Minecraftbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 270px 460px;
+
 
 }
 
@@ -37,6 +41,10 @@
     box-shadow: 2px 2px 10px white;
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/supercellbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 270px 430px;
+
 
 }
 
@@ -65,6 +73,9 @@
     box-shadow: 2px 2px 10px rgb(254,52,88);
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/valorantbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 285px 480px;
 
 }
 
@@ -163,6 +174,9 @@
     box-shadow: 2px 2px 10px red;
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/netflixbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 270px 430px;
 
 }
 
