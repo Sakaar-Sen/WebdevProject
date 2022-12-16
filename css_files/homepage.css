@@ -82,7 +82,7 @@ a{
 .body-item{
     padding: 350px 0em;
     font-size: 40px;
-    transition: font-size 0.3s, background-size 0.3s;
+    transition: font-size 0.2s, background-size 0.3s;
     cursor: pointer;
     text-align: center;
     border: white;
@@ -117,6 +117,7 @@ a{
     background-image: url("../imgs/ent.png");
     background-blend-mode: color-burn;
     background-color: rgba(59, 59, 59, 0.96);
+    background-position: center;
 
 }
 
@@ -125,6 +126,8 @@ a{
     background-blend-mode: color-burn;
     background-color: rgba(59, 59, 59, 0.9);
     border-right: 0px;
+    background-position: center;
+
 }
 
 .logo{
