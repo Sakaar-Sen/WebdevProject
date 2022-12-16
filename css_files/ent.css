@@ -32,6 +32,10 @@
 
     
 .minecraft:hover{
+    background-image: url("../imgs/minecraftgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(35, 230, 9);
@@ -50,6 +54,10 @@
 
     
 .supercell:hover{
+    background-image: url("../imgs/supercellgif.webp");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px white;
@@ -81,6 +89,10 @@
 
     
 .valorant:hover{
+    background-image: url("../imgs/valorantgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(254,52,88);
@@ -113,6 +125,10 @@
 
     
 .roblox:hover{
+    background-image: url("../imgs/robloxgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(103,64,255);
@@ -130,6 +146,10 @@
 
     
 .pubg:hover{
+    background-image: url("../imgs/pubgbag.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(176,0,24);
@@ -143,21 +163,12 @@
     background-size: 270px 460px;
 
 }
-
-.angry-bird-img{
-    width: 150px;
-    height: 100px;
-    margin: 0px auto 0px auto;
-    background-image: url(../imgs/angrybird.jpg);
-    background-size: cover;
-    border-radius: 23%;
-}
-
-.angry-bird-img:hover{
-    background-image: url(../imgs/facebook.png);
-}
     
 .freefire:hover{
+    background-image: url("../imgs/freefiregif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(249,163,32);
@@ -174,6 +185,10 @@
 
     
 .angrybird:hover{
+    background-image: url("../imgs/angrybirdgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(103,64,255);
@@ -182,12 +197,17 @@
     border-color: skyblue;
     box-shadow: 2px 2px 10px skyblue;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-attachment: url("imgs/crazygames.jpg");
-
+    background-image: url("../imgs/amazonprimebag.webp");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
 }
 
     
 .prime:hover{
+    background-image: url("../imgs/amazonprimebaggif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px skyblue;
@@ -205,7 +225,14 @@
 
     
 .netflix:hover{
+    background-image: url("../imgs/netflixbaggif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px red;
+}
+.angrybirdgif:hover{
+    cursor: grab;
 }
