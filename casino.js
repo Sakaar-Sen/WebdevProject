@@ -71,7 +71,7 @@ function rendergame(){
          
     }
 
-    if(chips >= 40){
+    if(chips >= 100){
         setTimeout(()=>{
             alert("You have WON the game!")
             chips = 20
