@@ -7,11 +7,15 @@ body{
 }
 
 
-h1, p{
-    color: black;
+.instructions{
+    color: white;
+    width: 550px;
+    margin: 0px auto;
 }
 
-
+h1,p{
+    color: black;
+}
 
 #status{
     visibility: hidden;
@@ -35,7 +39,7 @@ input[type=radio] {
 .audio{
     position: absolute;
     right: 20px;
-    top: 220px;    
+    top: 410px;    
 }
 
 .casino-container{
