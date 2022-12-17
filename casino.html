@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Social</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css_files/grid.css">
+  <link rel="stylesheet" href="css_files/nav_bar.css">
+  <link rel="stylesheet" href="css_files/common.css">
+  <link rel="stylesheet" href="css_files/casino.css">
+  <link rel="icon" type="image/x-icon" href="imgs/cg logo.jpeg">
+
+
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="left-section">
+            <img src="imgs/logo.png" class="logo">
+        </div>
+    
+        <div class="right-section">
+          <h3 class="home-button"><a class="a-home" href="index.html">Home</a></h3>
+        </div>
+    </div>
+
+    <div class="heading-container">
+        <h1 class="heading">Casino</h1>
+    </div>
+
+      <div class="audio">
+  <audio autoplay loop id="myAudio" src="nature.mp3" ></audio>
+    <button class="audio-btn" onclick="playPause()">Play/Pause</button>
+  </div>
+
+  <div class="casino-container">
+  <h1 class="casino-heading">Casino</h1>
+  <p id="chips">Your Chips: 20</p>
+
+
+  <div class="buttons-container">
+  <form>
+    <input type="radio" id="less" name="choice" class="button" checked> 
+    <label for="choice">Less than 7</label><br>
+
+    <input type="radio" id="equal" name="choice" class="button" >
+    <label for="equal">Equal 7 <span class="twox">(2x)</span></label><br>
+
+    <input type="radio" id="more" name="choice" class="button" >
+    <label for="more">More than 7</label><br>
+
+    <div class="amt-container">
+    <label for="amt">Bet Amount: </label><br>
+    <input type="number" value="5" id="amt" name="amt" class="amt-input">
+    </div>
+  </form>
+</div>
+
+
+  <p id="count">You Got: </p>
+  <p id="sum">Sum: </p>
+  <p id="status">a</p>
+  <button id="play-btn" onclick="startgame()">Play</button>
+</div>
+
+  <script src="casino.js"></script>
+
+
+</body>
+</html>
