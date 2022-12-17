@@ -107,27 +107,38 @@ a{
 .education-container{
     background-image: url("../imgs/edu.png");
     background-blend-mode: color-burn;
-    background-color: rgba(59, 59, 59, 0.8);
+    background-color: rgba(59, 59, 59, 0.7);
     border-left: 0px;
     background-position: center;
-
 }
+
+.education-container:hover{
+    background-color: rgba(59, 59, 59, 0.5);
+}
+
 
 .entertainment-container{
     background-image: url("../imgs/ent.png");
     background-blend-mode: color-burn;
-    background-color: rgba(59, 59, 59, 0.96);
+    background-color: rgba(59, 59, 59, 0.8);
     background-position: center;
-
 }
+
+.entertainment-container:hover{
+    background-color: rgba(59, 59, 59, 0.7);
+}
+
 
 .social-container{
     background-image: url("../imgs/social.png");
     background-blend-mode: color-burn;
-    background-color: rgba(59, 59, 59, 0.9);
+    background-color: rgba(59, 59, 59, 0.8);
     border-right: 0px;
     background-position: center;
+}
 
+.social-container:hover{
+    background-color: rgba(59, 59, 59, 0.6);
 }
 
 .logo{
