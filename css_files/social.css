@@ -1,3 +1,4 @@
+
 .icons{
     border-radius: 23%;
 }
@@ -7,6 +8,8 @@
     border-color: red;
     box-shadow: 2px 2px 10px rgb(255, 0, 0);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0), rgb(196, 0, 0));
+    background-blend-mode: overlay;
 
 }
 
@@ -21,7 +24,8 @@
     border-color: rgb(0, 221, 255);
     box-shadow: 2px 2px 10px rgb(0, 221, 255);
     transition: scale 0.3s, box-shadow 0.3s;
-
+    background-image: linear-gradient(135deg,rgb(0, 0, 0), rgb(33, 111, 160));
+    background-blend-mode: overlay;
 }
 
     
@@ -32,8 +36,10 @@
 }
 .instagram{
     border-color: rgb(251, 0, 255);
-    box-shadow: 2px 2px 10px rgb(251, 0, 255);;
+    box-shadow: 2px 2px 10px rgb(251, 0, 255);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0),rgb(241, 88, 111));
+    background-blend-mode: overlay;
 
 }
 
@@ -41,12 +47,15 @@
 .instagram:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(251, 0, 255);;
+    box-shadow: 0px 0px 20px rgb(251, 0, 255);
 }
 .facebook{
     border-color: rgb(82, 44, 219);
-    box-shadow: 2px 2px 10px rgb(82, 44, 219);;
+    box-shadow: 2px 2px 10px rgb(82, 44, 219);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg,rgb(0, 0, 0),rgb(41, 60, 168));
+    background-blend-mode: overlay;
+
 
 }
 
@@ -54,13 +63,15 @@
 .facebook:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(82, 44, 219);;;
+    box-shadow: 0px 0px 20px rgb(82, 44, 219);
 }
 
 .whatsapp{
     border-color: rgb(0, 255, 81);
-    box-shadow: 2px 2px 10px rgb(0, 255, 81);;
+    box-shadow: 2px 2px 10px rgb(0, 255, 81);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0),rgb(14, 165, 14));
+    background-blend-mode: overlay;
 
 }
 
@@ -68,13 +79,15 @@
 .whatsapp:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(0, 255, 81);;;
+    box-shadow: 0px 0px 20px rgb(0, 255, 81);
 }
 
 .reddit{
     border-color: rgb(255, 77, 0);
-    box-shadow: 2px 2px 10px rgb(255, 77, 0);;
+    box-shadow: 2px 2px 10px rgb(255, 77, 0);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0),rgb(231, 0, 0));
+    background-blend-mode: overlay;
 
 }
 
@@ -82,13 +95,15 @@
 .reddit:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(255, 77, 0);;;
+    box-shadow: 0px 0px 20px rgb(255, 77, 0);
 }
 
 .pinterest{
     border-color: rgb(255, 0, 0);
-    box-shadow: 2px 2px 10px rgb(255, 0, 0);;
+    box-shadow: 2px 2px 10px rgb(255, 0, 0);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0),rgb(231, 0, 0));
+    background-blend-mode: overlay;
 
 }
 
@@ -96,13 +111,15 @@
 .pinterest:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(255, 0, 0);;;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
 }
 
 .snapchat{
     border-color: rgb(200, 255, 0);
-    box-shadow: 2px 2px 10px rgb(200, 255, 0);;
+    box-shadow: 2px 2px 10px rgb(200, 255, 0);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0),rgb(158, 158, 0));
+    background-blend-mode: overlay;
 
 }
 
@@ -110,13 +127,15 @@
 .snapchat:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(200, 255, 0);;;
+    box-shadow: 0px 0px 20px rgb(200, 255, 0);
 }
 
 .linkedin{
     border-color: rgb(75, 104, 248);
-    box-shadow: 2px 2px 10px rgb(75, 104, 248);;
+    box-shadow: 2px 2px 10px rgb(75, 104, 248);
     transition: scale 0.3s, box-shadow 0.3s;
+    background-image: linear-gradient(135deg, rgb(0, 0, 0),rgb(13, 13, 182));
+    background-blend-mode: overlay;
 
 }
 
@@ -124,5 +143,5 @@
 .linkedin:hover{
     scale: 105%;
     cursor: pointer;
-    box-shadow: 0px 0px 20px rgb(75, 104, 248);;;
+    box-shadow: 0px 0px 20px rgb(75, 104, 248);
 }

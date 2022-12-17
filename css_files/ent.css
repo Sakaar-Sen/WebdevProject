@@ -5,7 +5,7 @@
 
 }
 
-    
+
 .youtube:hover{
     scale: 105%;
     cursor: pointer;
@@ -217,10 +217,10 @@
     box-shadow: 2px 2px 10px red;
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
-    background-image: url("../imgs/netflixbag.jpg");
+    background-image: url("../imgs/Netflix-Symbol.png");
     background-blend-mode: color-burn;
-    background-size: 270px 430px;
-
+    background-position: center;
+    background-size: 500px;
 }
 
     
