@@ -5,7 +5,7 @@
 
 }
 
-    
+
 .youtube:hover{
     scale: 105%;
     cursor: pointer;
@@ -32,6 +32,10 @@
 
     
 .minecraft:hover{
+    background-image: url("../imgs/minecraftgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(35, 230, 9);
@@ -50,6 +54,10 @@
 
     
 .supercell:hover{
+    background-image: url("../imgs/supercellgif.webp");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px white;
@@ -58,7 +66,7 @@
     border-color: rgb(103,64,255);
     box-shadow: 2px 2px 10px rgb(103,64,255);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-attachment: url("imgs/crazygames.jpg");
+    background-image: linear-gradient(45deg, darkblue, rgb(0, 0, 49));
 
 }
 
@@ -81,6 +89,10 @@
 
     
 .valorant:hover{
+    background-image: url("../imgs/valorantgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(254,52,88);
@@ -90,6 +102,8 @@
     box-shadow: 2px 2px 10px rgb(24,113,61);
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/frivbag.jpg");
+    background-blend-mode: color-burn;
 
 }
 
@@ -103,12 +117,18 @@
     border-color: rgb(103,64,255);
     box-shadow: 2px 2px 10px rgb(103,64,255);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/robloxbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 270px 460px;
 
 }
 
     
 .roblox:hover{
+    background-image: url("../imgs/robloxgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(103,64,255);
@@ -118,11 +138,18 @@
     box-shadow: 2px 2px 10px rgb(176,0,24);
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/pubgbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 270px 460px;
 
 }
 
     
 .pubg:hover{
+    background-image: url("../imgs/pubgbag.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(176,0,24);
@@ -131,12 +158,17 @@
     border-color: rgb(249,163,32);
     box-shadow: 2px 2px 10px rgb(249,163,32);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-attachment: url("imgs/crazygames.jpg");
+    background-image: url(../imgs/freefirebag.jpg);
+    background-blend-mode: color-burn;
+    background-size: 270px 460px;
 
 }
-
     
 .freefire:hover{
+    background-image: url("../imgs/freefiregif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(249,163,32);
@@ -145,12 +177,18 @@
     border-color: rgb(103,64,255);
     box-shadow: 2px 2px 10px rgb(103,64,255);
     transition: scale 0.3s, box-shadow 0.3s;
-    background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/amgrybirdbag.jpg");
+    background-blend-mode: color-burn;
+    background-size: 270px 460px;
 
 }
 
     
 .angrybird:hover{
+    background-image: url("../imgs/angrybirdgif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px rgb(103,64,255);
@@ -159,12 +197,17 @@
     border-color: skyblue;
     box-shadow: 2px 2px 10px skyblue;
     transition: scale 0.3s, box-shadow 0.3s;
-    background-attachment: url("imgs/crazygames.jpg");
-
+    background-image: url("../imgs/amazonprimebag.webp");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
 }
 
     
 .prime:hover{
+    background-image: url("../imgs/amazonprimebaggif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px skyblue;
@@ -174,15 +217,22 @@
     box-shadow: 2px 2px 10px red;
     transition: scale 0.3s, box-shadow 0.3s;
     background-attachment: url("imgs/crazygames.jpg");
-    background-image: url("../imgs/netflixbag.jpg");
+    background-image: url("../imgs/Netflix-Symbol.png");
     background-blend-mode: color-burn;
-    background-size: 270px 430px;
-
+    background-position: center;
+    background-size: 500px;
 }
 
     
 .netflix:hover{
+    background-image: url("../imgs/netflixbaggif.gif");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
     scale: 105%;
     cursor: pointer;
     box-shadow: 0px 0px 20px red;
+}
+.angrybirdgif:hover{
+    cursor: grab;
 }
