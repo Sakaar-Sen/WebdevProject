@@ -233,6 +233,25 @@
     cursor: pointer;
     box-shadow: 0px 0px 20px red;
 }
-.angrybirdgif:hover{
-    cursor: grab;
+.zee5{
+    border-color: rgb(103, 95, 207);
+    box-shadow: 2px 2px 10px (103, 95, 207);
+    transition: scale 0.3s, box-shadow 0.3s;
+    background-attachment: url("imgs/crazygames.jpg");
+    background-image: url("../imgs/zee5.jpg");
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-size: cover;
+}
+
+    
+.zee5:hover{
+    background-image: url("https://youtu.be/jah9dqT5QkQ");
+    
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
+    scale: 105%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px (103, 95, 207);
 }
