@@ -2,6 +2,8 @@ var countEl = document.getElementById('count')
 var sumEl = document.getElementById('sum')
 var statusEl = document.getElementById('status')
 var playbtnEl = document.getElementById("play-btn")
+
+var resetbtnEl = document.getElementById("reset-btn")
 var chipsEl = document.getElementById("chips")
 var amtEl = document.getElementById("amt")
 var chips = 20
@@ -10,6 +12,14 @@ var amt = 2
 function startgame(){
     statusEl.style.visibility = "visible"
     rendergame()
+}
+
+function resetgame(){
+    chips = 20
+    chipsEl.textContent = "Your Chips: " + chips
+    statusEl.textContent = "‎" 
+    countEl.textContent = "You Got: " 
+    sumEl.textContent = "Sum: "
 }
 
 function rendergame(){

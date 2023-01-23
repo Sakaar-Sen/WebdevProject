@@ -114,7 +114,7 @@ label{
     color: black;
 }
 
-#play-btn{
+#play-btn, #reset-btn{
     padding: 10px 70px;
     font-size: 20px;
     background-color: transparent;
@@ -123,9 +123,12 @@ label{
     transition: background-color 0.2s, color 0.2s ;
 }
 
-#play-btn:hover{
+#play-btn:hover, #reset-btn:hover{
     background-color: black;
     color: white;
+}
 
+#reset-btn {
+    margin-top: 10px;
 }
 
